@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  height: 667px;
+  background: url('/images/background1.png') center/cover;
+}
+
+.up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 256px;
+  height: 64px;
+  margin-left: 72px;
+  margin-top: 37px;
+}
+
+.toolbar {
+  width: 750px;
+  padding-top: 64px;
+  padding-right: 72px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .header {
+    height: 100vh;
+  }
+  .heart, .vector,
+  .titles, .toolbar, 
+  .place, .mops,
+  .place2, .vector3 {
+    display: none;
+  }
+  .dog {
+    margin: 0 auto;
+  }
+  .up {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    margin: 20px; /* Set margin */
+    width: 100%;
+  }
+}
+
+.links {
+  margin-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.place {
+  width: 248px;
+  height: 472px;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 76.627px;
+  font-family: "Amatic SC";
+  color: rgb(76, 37, 46);
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  -moz-transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  -webkit-transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  -ms-transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  position: absolute;
+  left: 376px;
+  top: 130.131px;
+  z-index: 58;
+}
+
+.subtitle span {
+  color: rgb(0, 115, 171); /* Set the color to blue */
+}
+
+.maintitle {
+  font-size: 212.5px;
+  font-family: "Amatic SC";
+  color: rgb(0, 115, 171);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+  text-align: center;
+  transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  -moz-transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  -webkit-transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  -ms-transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  position: absolute;
+  left: 228.815px;
+  top: -46px;
+  z-index: 57;
+}
+
+
+.dog {
+  height: 490px;
+  width: 100%;
+  max-width: 498px;
+  margin-top: 73px;
+}
+
+.vector {
+  width: 566px;
+  height: 145px;
+  position: absolute;
+  left: 380px;
+  top: 320px;
+}
+
+.heart {
+  width: 424px;
+  height: 312px;
+  position: absolute;
+  left: 435px;
+  top: 285px;
+}
+
+.main {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mops {
+  width: 428px;
+  height: 529px;
+  position: absolute;
+  left: 0;
+  top: 850px;
+}
+
+.place2 {
+  margin-top: 120px;
+  margin-right: 154px;
+  width: 154px;
+  height: 304px;
+}
+
+
+.lorem {
+  margin-top: 150px;
+  margin-left: 313px;
+  width: 415.38px;
+  height: 184.64px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.read {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  color: #00a3d3;
+  margin-top: 150px;
+  margin-left: 313px;
+  letter-spacing: 5px;
+}
+
+.our {
+  top: 929px;
+  left: 200px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  position: absolute;
+}
+
+.story {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #00a3d3;
+  position: absolute;
+  left: 200px;
+  top: 919px;
+}
+
+.footer {
+  width: 100%;
+  height: 351px;
+  background: url('/images/chicken.png') center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredient {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Amatic SC";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.egg {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Amatic SC";
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 46px;
+  letter-spacing: 2px;
+}
+
+.about {
+  font-family: Montserrat, sans-serif;
+  width: 100%;
+  max-width: 817px;
+  min-width: 400px;
+  font-weight: 400;
+  padding-top: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.vector3 {
+  width: 237px;
+  height: 177px;
+  position: absolute;
+  left: 30px;
+}
