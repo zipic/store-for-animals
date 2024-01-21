@@ -12,6 +12,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Shantell+Sans&family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="container">
   <header class="header">
     <div class="up">
     <a href="">
@@ -23,6 +24,9 @@
       <a class="links" href="/">our story</a>
       <a class="links" href="/">contact us</a>
     </div>
+    <button class="boorger" onclick="openMenu()">
+      <img class="button" src="./images/menu.svg" alt="menu">
+    </button>
   </div>
   <section class="description">
   <img class="place" src="./images/place.png" alt="">
@@ -35,22 +39,44 @@
   <img class="dog" src="./images/dog.png" alt="dog">
   </section>
   </header>
+
+  <section class="mobile">
+    <img class="food" src="./images/place2.png" alt="place2">
+  </section>
   <main class="main">
     <img class="mops" src="./images/dog2.png" alt="mops">
       <p class="our">our</p> <br>
       <p class="story">Story</p>
-      <div>
+      <div class="info">
+        <h2 class="mob-our">our <br> <span class="mob-story">Story</span></h2>
         <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor impedit tempora qui sapiente in. Libero neque quis sapiente nobis, deserunt tenetur sequi sit corrupti architecto eos aliquid consectetur vel. Architecto iste in rem!</p>
         <a class="read" href="/"> read more</a>
       </div>
       <img class="place2" src="./images/place2.png" alt="place2">
   </main>
-
   <footer class="footer">
     <img class="vector3" src="./images/vector3.png" alt="vector3">
     <p class="ingredient">our no . 1 ingredient</p>
     <p class="egg">real chicken & egg</p>
     <p class="about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore adipisci, officiis ratione repudiandae soluta itaque! Hic, molestias. Dolorem.</p>
   </footer>
+</div>
+
+  <div class="menu hidden">
+    <div class="section">
+      <div class="page">
+        <a class="navigation" href="/">shop for dog</a>
+        <a class="navigation" href="/">shop for cat</a>
+        <a class="navigation" href="/">our story</a>
+        <a class="navigation" href="/">contact us</a>
+      </div>
+        <button class="close" onclick="closeMenu()">
+          <img class="button" src="./images/close.svg" alt="menu">
+        </button>
+      </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./src/script.js"></script>
 </body>
 </html>
