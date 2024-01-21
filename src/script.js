@@ -8,7 +8,3 @@ function closeMenu() {
   $('.container').removeClass('hidden');
   $('.menu').fadeOut();
 }
-
-$('.navigation').on('click', function() {
-  closeMenu();
-});
