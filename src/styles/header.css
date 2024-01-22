@@ -1,0 +1,114 @@
+.header {
+  width: 100%;
+  height: 100%;
+  height: 667px;
+  background: url("../../images/background1.png") center/cover;
+}
+
+.up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 256px;
+  height: 64px;
+  margin-left: 72px;
+  margin-top: 37px;
+}
+
+.toolbar {
+  width: 750px;
+  padding-top: 64px;
+  padding-right: 72px;
+}
+
+.links {
+  margin-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.links:hover {
+  color: rgb(0, 115, 171);
+}
+
+.place {
+  width: 248px;
+  height: 472px;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 76.627px;
+  font-family: "Amatic SC";
+  color: rgb(76, 37, 46);
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  -moz-transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  -webkit-transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  -ms-transform: matrix(0.54375786050163, 0, 0, 0.54375786050163, 0, 0);
+  position: absolute;
+  left: 376px;
+  top: 130.131px;
+  z-index: 58;
+}
+
+.subtitle span {
+  color: rgb(0, 115, 171); /* Set the color to blue */
+}
+
+.maintitle {
+  font-size: 212.5px;
+  font-family: "Amatic SC";
+  color: rgb(0, 115, 171);
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+  text-align: center;
+  transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  -moz-transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  -webkit-transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  -ms-transform: matrix(0.30897824864555, -0.06878923332531, 0.06997584318248, 0.30373877429526, 0, 0);
+  position: absolute;
+  left: 228.815px;
+  top: -46px;
+  z-index: 57;
+}
+
+
+.dog {
+  height: 490px;
+  width: 100%;
+  max-width: 498px;
+  margin-top: 73px;
+}
+
+.vector {
+  width: 566px;
+  height: 145px;
+  position: absolute;
+  left: 380px;
+  top: 320px;
+}
+
+.heart {
+  width: 424px;
+  height: 312px;
+  position: absolute;
+  left: 435px;
+  top: 285px;
+}

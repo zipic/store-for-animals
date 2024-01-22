@@ -4,7 +4,6 @@ function openMenu() {
 }
 
 function closeMenu() {
-  console.log('close is ');
   $('.container').removeClass('hidden');
   $('.menu').fadeOut();
 }

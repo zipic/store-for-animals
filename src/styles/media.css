@@ -1,0 +1,112 @@
+@media (min-width: 400px) and (max-width: 1000px) {
+  .header {
+    height: 100%;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+  }
+  .heart, .vector, 
+  .titles, .toolbar,
+  .place, .mops,
+  .place2, .vector3,
+  .our, .story {
+    display: none;
+  }
+
+  .dog {
+    width: 100%;
+    margin-left: auto;
+  }
+  .up {
+    display: flex;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .lorem {
+    width: 90%;
+  }
+
+  .about {
+    width: 90%;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+  }
+
+  .boorger {
+    display: flex;
+    margin: 35px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .mob-our {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .mob-story {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #00a3d3;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1400px) {
+  .titles, .heart,
+  .vector, .our, .story {
+    display: none;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .dog {
+    margin-left: auto;
+    margin-top: 73px;
+  }
+
+  .boorger {
+    display: flex;
+    margin: 35px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .mob-our {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .mob-story {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #00a3d3;
+  }
+}

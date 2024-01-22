@@ -1,0 +1,57 @@
+.mobile {
+  display: none;
+}
+.boorger {
+  display: none;
+}
+.button {
+  width: 30px;
+  height: 30px;
+}
+
+.page {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: url("../../images/background1.png") center/cover;
+  display: none;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  margin: 30px;
+}
+
+.navigation {
+  margin-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.navigation:hover {
+  color: rgb(0, 115, 171);
+}
+
+.mob-story, .mob-our {
+  display: none;
+}
